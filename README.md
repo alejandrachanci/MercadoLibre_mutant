@@ -8,10 +8,9 @@ Headers:
 
 Content-Type: application/json
 
-Body
-{
+Body{
    "dna":["STGCGA","CAGTGC","TTATGT","AGAAGG","CCCCTA","TCACTG"]
-}
+   }
 
 
 - Response 
@@ -20,12 +19,11 @@ Headers
 
  Content-Type: application/json
 
-Body
-{
+Body{
  "String": "es mutante"   
-}
+ }
 
-En caso de obtener una respuesta negativa, No es mutante.
+- En caso de obtener una respuesta negativa, No es mutante.
 
 {
     "String": "No es mutante"
